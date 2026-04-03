@@ -1,0 +1,9 @@
+frontend/
+frontend-components/
+docs/
+.git/
+*.md
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc

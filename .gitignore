@@ -1,0 +1,56 @@
+# ===== SECRETS =====
+.env
+.env.local
+.env.production
+.env.*.local
+*.pem
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+
+# ===== Docker =====
+pgdata/
+piston_data/
+
+# ===== IDE =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ===== Misc =====
+*.log
+tmp/
+/tmp/interviewai/
+interviewai_projet.md
+frontend-components/
+docs/plans/
+
+# ===== Claude / Playwright artifacts =====
+.claude/
+.playwright-mcp/
+
+# ===== Personal files =====
+CV_*.pdf
+*.pdf
+
+# ===== Frontend embedded git =====
+frontend/.git/
